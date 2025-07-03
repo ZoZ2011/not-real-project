@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    margin: 0; /* Remove default body margin */
+}
+
+.task-bar {
+    color: white;
+    display: flex;
+    align-items: center; /* Vertically center items */
+    padding: 10px 60px; /* Add spacing */
+    position: fixed; /* Lock to the top */
+    top: 0; /* Stick to top */
+    width: 100%; /* Full width */
+     /* Optional: Solid background */
+    z-index: 1000; /* Ensure it stays above other content */
+    gap: 450px;
+    cursor: pointer;
+}
+
+.task-bar-group {
+    display: flex;
+    gap: 50px; /* Space between menu items */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.task-bar-group p {
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.task-bar-group p:hover {
+    color: #0022FF;
+}
+.hany {
+    margin: 0; /* Remove default paragraph margin */
+    font-weight: bold; /* Optional: Make "Hany" stand out */
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.dot {
+    color: #0022FF; /* Style the dot (optional) */
+}
+.linkedin-logo {
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.linkedin-logo svg {
+  fill: #a6a3a3; /* Off-white default color */
+  vertical-align: middle;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.linkedin-logo:hover svg {
+  fill: #0022FF; /* Blue on hover */
+   /* Slight enlargement */
+}
+.intro{
+    color: white;
+    font-size: 96px;
+    padding-top: 175px;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.name{
+    color: #0022FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+}
+h1 {
+    color: #0022FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    margin: 0;
+    padding: 0px 0 0 50px;
+    position: relative;
+}
+.intro2{
+    color: #B5B5B5;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.intro3{
+    color: #B5B5B5;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#bottone1 {
+    padding: 16px 33px; /* Combined padding shorthand */
+    border-radius: 9px;
+    background: #0022FF; /* Your blue color */
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease; /* Smooth transition for all properties */
+    color: white; /* Text color */
+    font-weight: bold; /* Better readability */
+}
+
+#bottone1:hover {
+    background: #0044FF; /* Slightly lighter blue on hover */
+    box-shadow: 0 0 20px 5px rgba(0, 34, 255, 0.7); /* Blue glow effect */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+#bottone1:active {
+    transform: scale(0.97) translateY(0); /* Combine with existing translateY */
+    box-shadow: 0 0 15px 3px rgba(0, 34, 255, 0.7); /* Smaller glow when pressed */
+}
